@@ -1,10 +1,9 @@
-
-
-
-
-
-
 <?php
+
+/*This code takes an image "input.png", cuts it in 4 pieces
+and arranges them that the borders in the original picture 
+are in the middle. So you can edit the transistions between
+the borders to make the image a repeating texture*/
 
 // get image data
 $image_data = imagecreatefrompng('input.png');

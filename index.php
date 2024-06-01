@@ -1,13 +1,12 @@
 
-
-
-
-
-
 <?php
-//if GET inv is true: same from the other side
 
-// get image data
+/*
+This application creates a shadow/lighting overlay
+out of a normal map.  The GET parameter "inv" specifies if
+height and depth are inverted.
+
+
 $image_data = imagecreatefrompng('input.png');
 $image_data2 = imagecreatefrompng('input.png');
 
@@ -83,4 +82,4 @@ for($x = 0; $x < $width; $x++) {
 
     ?>
     <img src="input.png">
-<img src="output.png">
+    <img src="output.png">

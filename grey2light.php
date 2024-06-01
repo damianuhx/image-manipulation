@@ -2,12 +2,17 @@
 <img src="input.png">
 <?php
 
+/*
+This application takes a image called "input.png" and transforms it to "output.png"
+It expects a greyscale picture and transforms all 
+-light colors to white with higher alpha the brighter the color is
+-dark colors to black with alpha depending on the how dark the color is
+This transformation is used to make shadow overlays by lightmaps.
+*/
+
 
 // get image data
 $image_data = imagecreatefrompng('input.png');
-$image_data = imagecreatefrompng('input.png');
-
-echo $image_data;
 
 // Turn off alpha blending
 imagealphablending($image_data, false);
