@@ -1,5 +1,5 @@
 This is a small collection of programms to manipulate image data. 
-I use it for creating assets for my game SoundStorm.
+I use it for creating assets for my game <a href="soundstorm.uhx.ch">SoundStorm</a>.
 
 <ul>
   <li>The index.php file is the entry mask for uploading an image.</li>
