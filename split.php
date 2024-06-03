@@ -27,9 +27,6 @@ for($x = 0; $x < $width; $x++) {
         if ($x2>=$width){$x2-=$width;}
         if ($y2>=$height){$y2-=$height;}
 
-       // echo 'X'.$x2.' || ';
-       // echo 'Y'.$y2.'';
-
        $color = imagecolorsforindex($image_data, imagecolorat($image_data, $x2, $y2)); // human readable
 
 
@@ -45,5 +42,5 @@ for($x = 0; $x < $width; $x++) {
     imagedestroy($image_output);
 
     ?>
-    <!--<img src="input.png">
-    <img src="output.png">-->
+    <img src="input.png">
+    <img src="output.png">
