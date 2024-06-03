@@ -46,7 +46,7 @@ if ($uploadOk == 0) {
     What do you want to do with this file?<br/>
     <br/>
     <a href=\"split.php\">Split into 4 parts and rearrange them to manually smoothen the boarders. </a><br/>
-    <a href=\"normal2light.php\">Create a light-overlay from a normalmap.</a><br/>
+    <a href=\"normal2light.php?inv=0\">Create a light-overlay from a normalmap.</a><br/>
     <a href=\"normal2light.php?inv=1\">Create a light-overlay from a normalmap. (inverted)</a><br/>
     <!--<a href=\"grey2light.php\">Transform a lightmap to a light-overlay.</a>--><br/>
     ";
