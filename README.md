@@ -1,5 +1,5 @@
 This is a small collection of programms to manipulate image data. 
-I use it for creating assets for my game <a href="soundstorm.uhx.ch">SoundStorm</a>.
+I use it for creating assets for my game <a href="https://soundstorm.uhx.ch">SoundStorm</a>.
 
 An online version is available <a href="https://image-manipulation.uhx.ch">here</a>.
 

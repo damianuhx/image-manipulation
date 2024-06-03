@@ -2,7 +2,7 @@
 <html>
 <body>
 
-This is a small collection of programms for manipulating image data. I use it for my game <a href="soundstorm.uhx.ch">SoundStorm</a>. The source code can be accessed <a href="https://github.com/damianuhx/image-manipulation">here</a>.<br/><br/>
+This is a small collection of programms for manipulating image data. I use it for my game <a href="https://https://soundstorm.uhx.ch">SoundStorm</a>. The source code can be accessed <a href="https://github.com/damianuhx/image-manipulation">here</a>.<br/><br/>
 <form action="upload.php" method="post" enctype="multipart/form-data">
   Select image to upload:
   <input type="file" name="fileToUpload" id="fileToUpload"><br/>
