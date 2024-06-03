@@ -1,6 +1,8 @@
 This is a small collection of programms to manipulate image data. 
 I use it for creating assets for my game <a href="soundstorm.uhx.ch">SoundStorm</a>.
 
+An online version is available <a href="image-manipulation.uhx.ch">here</a>.
+
 <ul>
   <li>The index.php file is the entry mask for uploading an image.</li>
 <li>In uploads.php the uploaded image is stored as "input.png". With the listed links the image can be processed.</li>
